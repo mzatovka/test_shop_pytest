@@ -1,0 +1,5 @@
+pytest
+playwright
+
+pip install -r requirements.txt
+
