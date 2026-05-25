@@ -96,7 +96,7 @@ def cart():
         page.goto('https://www.saucedemo.com/')
     
         enter_name = page.locator("[data-test='username']")
-        enter_name.fill('error_user')
+        enter_name.fill('standard_user')
     
         enter_password = page.locator("[data-test='password']")
         enter_password.fill('secret_sauce')
